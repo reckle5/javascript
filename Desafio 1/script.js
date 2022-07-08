@@ -1,4 +1,4 @@
-/*let cantidadLibros, genero
+let cantidadLibros, genero
 
 do{
     cantidadLibros = parseFloat(prompt("Ingrese cuantos libros leiste este año"))
@@ -26,36 +26,4 @@ else if((genero === 4 || genero === 5) && cantidadLibros >= 4){
 }
 else{
     alert("No eres alguien facil de encacillar, disfrutas de un libro sin importar su genero y eso es asombroso! aqui te van algunas recomendaciones: 'El hobbit' 'Los ojos del perro siberiano' 'Amor en verso' 'La chica del tren'");
-}*/
-
-//DESAFIO COMPLEMENTARIO 2
-
-class libro{
-    constructor(nombre, genero, autor, publicado){
-     this.nombre= nombre,
-     this.genero= genero,
-     this.autor= autor,
-     this.publicado= publicado
-    } 
 }
-
-const romance = new libro ("me before you", "romance", "jojo moyes", 2012);
-const romance2 = new libro ("amor en verso","romance","colleen hoovers",2012);
-
-const fic= new libro ("Fahrenheit 451", "ficcion", "Ray Bradbury", 1953);
-const fic2= new libro ("el marciano", "ficcion", "andy weir", 2011);
-
-let romanticos=["this girl","hopeless"]
-let ficcion=["passenger", "dune","la guerra de los mundos"]
-
-romanticos.push(romance)
-romanticos.push(romance2)
-console.log(romanticos)
-
-ficcion.push(fic)
-ficcion.push(fic2)
-ficcion.push(romance2)
-console.log(ficcion)
-
-ficcion.splice(5,1)
-console.log(ficcion)
