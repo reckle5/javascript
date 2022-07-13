@@ -30,3 +30,4 @@ console.log(ficcion)
 
 ficcion.splice(5,1)
 console.log(ficcion)
+
