@@ -1,7 +1,36 @@
 .prod{
-    background-color: rgb(128, 124, 158);
     margin: 1rem;
     color: black;
    
     
+}
+.img-productos{
+    height: 328px;
+    width: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.productos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+h1{
+    text-align: center;
+   padding: 2rem;
+   text-transform: uppercase;
+   color: rgb(35, 5, 59);
+}
+
+.botonInput{
+   margin:8px;
+   border-radius: 5px;
+    
+}
+.buscador{
+   margin-left: 3rem;
+   margin-bottom: 1rem;
 }
